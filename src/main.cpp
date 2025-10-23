@@ -11,6 +11,5 @@ void setup() {
 void loop() {
   int value = analogRead(34);   // đọc LDR
   Serial.printf(">light:%d\n", value);
-  //Serial.println("|val");       // định dạng cho Teleplot
   delay(2000);
 }
