@@ -8,9 +8,6 @@ void setup() {
   Serial.println("Bắt đầu đo ánh sáng...");
 }
 
-
-
-
 void loop() {
   int value = analogRead(34);   // đọc LDR
   Serial.printf(">light:%d\n", value);
